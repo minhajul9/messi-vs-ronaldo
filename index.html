@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Messi vs. Ronaldo</title>
 
   <!-- CSS only -->
@@ -92,8 +93,6 @@
   </div>
   <!-- carousel ends here -->
 
-
-
   <!-- Tabs -->
   <div>
     <nav>
@@ -147,15 +146,46 @@
   </div>
 
 
-
-  
   <div class="row" id="players">
     
     <div id="messi" class="col">
+      
+      <h3><mark>Lionel Messi</mark></h3>
+      
+      <img src="images/messi.jpg" alt="loading..."/>
+      
+      <div class="player-info" id="messi-info">
+
+       <p>Lionel Andrés Messi is an Argentine professional footballer who plays for and captains the Argentina national team. He is currently a free agent.<br><b><u>Born:</u></b>June 24, 1987 (age 34 years), Rosario, Argentina<br><b><u>Club:</u></b> Currently he is a free agent<br><b><u>National Team:</u></b> Argentina</p>
+       
+       <a target="_blank" href="https://en.wikipedia.org/wiki/Lionel_Messi">Learn more about <b>Messi</b></a>
+
+      </div>
     
     </div>
 
    <div id="ronaldo" class="col">
+
+     <h3><mark>Cristiano Ronaldo</mark></h3>
+
+     <img src="images/ronaldo.jpg" alt="loading..."/>
+
+     <div class="player-info">
+
+       <p>Cristiano Ronaldo dos Santos Aveiro GOIH ComM is a Portuguese professional footballer who plays as a forward for Serie A club Juventus and captains the Portugal national team.<br><b><u>Born:</u></b> February 5, 1985 (age 36 years), Hospital Dr. Nélio Mendonça, Funchal, Portugal.<br><b><u>Club:</u></b> Juventus<br><b><u>National Team:</u></b> Portugal</p>
+      
+
+        <h4>Previous Clubs</h4>
+
+        <ol>
+         <li>Manchester United</li>
+          <li>Lisbon</li>
+          <li>Real Madrid</li>
+        </ol>
+
+       <a target="_blank" href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo">Learn more about <b>Ronaldo</b></a>
+      
+      </div>
     </div>
   </div>
 
@@ -192,7 +222,7 @@
       <option value="ronaldo">Cristiano Ronaldo</option>
       <option value="messi">Lionel Messi</option>
     </select>
-    <p>Why he is your favourite?<br><textarea name="why-favourite" rows="8" cols="80"></textarea></p>
+    <p>Why he is your favourite?<br><textarea id="favourite-descrioption" name="why-favourite" rows="5" cols="70%"></textarea></p>
     <button type="submit" class="btn btn-success">Submit</button>
     <button type="cancel" class="btn btn-danger">Cancel</button>
   </div>
