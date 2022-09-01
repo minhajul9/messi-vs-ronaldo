@@ -12,7 +12,7 @@ body{
 .player-info{
   border: 5px solid black;
   padding: 10px;
-  width: 600px;
+  /* width: 600px; */
   height: 400px;
 }
 
@@ -74,5 +74,8 @@ a:hover {
   padding-left: 2%;
   margin: 8%;
   height: 100%;
+}
+.tab-content{
+  text-align: center;
 }
 
