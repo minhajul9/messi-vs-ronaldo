@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Messi vs. Ronaldo</title>
+
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+
+<body>
+  <div id="header">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <!--Brand/logo -->
+      <a class="navbar-brand" href="First website.html"><img id="logo" src="images/html-logo.png" >Messi vs Ronaldo</a>
+
+      <!--links -->
+      <ul class="navbar-nav">
+
+        <li class="nav-item">
+          <a class="nav-link" href="../HTML/first_page.html"> Minhaj</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../form/form.html"> Form</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../New folder/first page.html"> HTML</a>
+        </li>
+
+      </ul>
+
+    </nav>
+  </div>
+
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-interval="1500">
+        <img src="slides/1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-interval="1500">
+        <img src="slides/3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-interval="1500">
+        <img src="slides/4.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+   <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </button>
+  </div>
+
+  <div class="row" id="players">
+    
+    <div id="messi" class="col">
+      
+      <h3><mark>Lionel Messi</mark></h3>
+      
+      <img src="images/messi.jpg" alt="loading..."/>
+      
+      <div class="player-info" id="messi-info">
+
+       <p>Lionel Andrés Messi is an Argentine professional footballer who plays for and captains the Argentina national team. He is currently a free agent.<br><b><u>Born:</u></b>June 24, 1987 (age 34 years), Rosario, Argentina<br><b><u>Club:</u></b> Currently he is a free agent<br><b><u>National Team:</u></b> Argentina</p>
+       
+       <a target="_blank" href="https://en.wikipedia.org/wiki/Lionel_Messi">Learn more about <b>Messi</b></a>
+
+      </div>
+    
+    </div>
+
+   <div id="ronaldo" class="col">
+
+     <h3><mark>Cristiano Ronaldo</mark></h3>
+
+     <img src="images/ronaldo.jpg" alt="loading..."/>
+
+     <div class="player-info">
+
+       <p>Cristiano Ronaldo dos Santos Aveiro GOIH ComM is a Portuguese professional footballer who plays as a forward for Serie A club Juventus and captains the Portugal national team.<br><b><u>Born:</u></b> February 5, 1985 (age 36 years), Hospital Dr. Nélio Mendonça, Funchal, Portugal.<br><b><u>Club:</u></b> Juventus<br><b><u>National Team:</u></b> Portugal</p>
+      
+
+        <h4>Previous Clubs</h4>
+
+        <ol>
+         <li>Manchester United</li>
+          <li>Lisbon</li>
+          <li>Real Madrid</li>
+        </ol>
+
+       <a target="_blank" href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo">Learn more about <b>Ronaldo</b></a>
+      
+      </div>
+    </div>
+  </div>
+
+  <table class="table table-dark">
+    <tr>
+      <th>Statistics</th>
+      <th>Messi</th>
+      <th>Ronaldo</th>
+    </tr>
+    <tr>
+      <td>Appearances</td>
+      <td>856</td>
+      <td>1000</td>
+    </tr>
+    <tr>
+      <td>Goals</td>
+      <td>697</td>
+      <td>725</td>
+    </tr>
+    <tr>
+      <td>Assists</td>
+      <td>289</td>
+      <td>220</td>
+    </tr>
+  </table>
+  <div id= "voting-border">
+  <div id="voting-form">
+    <h2>Who's the best?</h2>
+
+    <p>Your name<br><input type="text" name="name" /></p>
+    <p>Who's your favourite?</p>
+    <select>
+      <option> </option>
+      <option value="ronaldo">Cristiano Ronaldo</option>
+      <option value="messi">Lionel Messi</option>
+    </select>
+    <p>Why he is your favourite?<br><textarea name="why-favourite" rows="8" cols="80"></textarea></p>
+    <button type="submit" class="btn btn-success">Submit</button>
+    <button type="cancel" class="btn btn-danger">Cancel</button>
+  </div>
+</div>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
+</html>

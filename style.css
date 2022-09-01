@@ -1,0 +1,68 @@
+#header{
+  color: #01383D;
+  text-align: center;
+  background: #E68116;
+  padding: 20px;
+  margin-bottom: 80px;
+}
+
+.player-info{
+  border: 5px solid black;
+  padding: 10px;
+  width: 600px;
+  height: 400px;
+}
+
+#messi{
+  background: #B7E7E9;
+  margin-bottom: 60px;
+  padding: 30px;
+}
+
+#ronaldo{
+  padding: 30px;
+  background: #A3B5E9;
+  margin-bottom: 60px;
+}
+
+#statistics{
+  background: #F0F392;
+  padding: 30px;
+  margin-bottom: 60px;
+}
+#voting-border{
+  background: skyblue;
+  padding: 30px;
+}
+
+#voting-form{
+  border: 3px solid black;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+img{
+  width: 200px;
+}
+
+#messi-info{
+  padding-bottom: 20px;
+}
+
+#logo{
+  width: 50px;
+}
+
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: black;
+}
+
